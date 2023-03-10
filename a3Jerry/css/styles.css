@@ -1,0 +1,152 @@
+html {
+    scroll-behavior: smooth;
+}
+
+/* HEADER */
+
+header {
+    background-color: white;
+    color: #000044;
+    margin: 0;
+    height: 110px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+header h1 {
+    width: 250px;
+    margin: 0;
+    position: relative;
+    left: 10%;
+    top: 20px;
+}
+
+h2:first-of-type {
+    margin-top: 130px;
+}
+
+ul {
+    list-style: none;
+    font-weight: 700;
+
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+    padding: 0;
+    margin: 0;
+    height: 40px;
+
+    position: relative;
+    top: 30px;
+}
+
+img {
+    position: fixed;
+    top: -10px;
+    right: 10%;
+    z-index: 0;
+}
+
+ul a {
+    transition: all 0.5s ease;
+    padding: 5px;
+    border-radius: 3px;
+    z-index: 1;
+    text-decoration: none;
+    color: #000044;
+}
+
+ul a:hover {
+    color: white;
+    background-color: navy;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+/* MAIN BODY */
+
+body {
+    background-color: lightblue;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+form {
+    background-color: whitesmoke;
+    width: 400px;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 0 auto;
+}
+
+.section {
+    height: 800px;
+}
+
+.submit {
+    background-color: navy;
+    border-width: 0px;
+    width: 160px;
+    height: 25px;
+    border-radius: 10px;
+    font: 24px;
+    color: white;
+    font-weight: 500;
+    margin: 0 calc(50% - 80px);
+    transition: all 0.5s;
+}
+
+.submit:hover {
+    background-color: white;
+    color: navy;
+    border-width: 1px;
+    border-color: navy;
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+h2, .help {
+    width: 420px;
+    text-align: center;
+    margin: 0 auto 20px;
+}
+
+.lbox {
+    height: 20px;
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.lbox p {
+    margin: 0;
+}
+
+/* FOOTER */
+
+footer {
+    height: 60px;
+    background-color: #000044;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: navy;
+    background-color: white;
+    border-radius: 3px;
+}
